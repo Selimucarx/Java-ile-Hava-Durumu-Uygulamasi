@@ -31,19 +31,19 @@ Sonrasında programı başlatabilirsiniz.
 
 projenizden silip.
 
+Bu kod bloğundaki parçayı ise:
+
 ```java
  httpGet.addHeader("authorization", "apikey " + apiKey);
  ```
- 
-Bu kod bloğundaki parçayı ise:
 
+şeklinde değiştirin.
 
  ```java
  httpGet.addHeader("authorization", "apikey " + API_KEY);
  ```
 
-şeklinde değiştirin ve sınıfa aşşağıdaki değişkeni ekleyin.
-
+Son olarak sınıfa API_KEY değişkeninizi ekleyin ve projeyi başlatın.
 
  ```java
  public static final String API_KEY = "Api keyiniz buraya gelecek";
