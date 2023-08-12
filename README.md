@@ -37,13 +37,13 @@ Bu kod bloğundaki parçayı ise:
  httpGet.addHeader("authorization", "apikey " + apiKey);
  ```
 
-şeklinde değiştirin.
+Aşşağıdaki şeklinde değiştirin.
 
  ```java
  httpGet.addHeader("authorization", "apikey " + API_KEY);
  ```
 
-Son olarak sınıfa API_KEY değişkeninizi ekleyin ve projeyi başlatın.
+Son olarak aşşağıdaki gibi sınıfa API_KEY değişkeninizi ekleyin ve projeyi başlatın.
 
  ```java
  public static final String API_KEY = "Api keyiniz buraya gelecek";
